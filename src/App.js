@@ -23,7 +23,7 @@ const App = () => {
         screenshotFormat="image/jpeg"
         videoConstraints={{ facingMode: cameraSource }}
       />
-      <button onClick={capture}>Capture Photo</button>
+      <button onClick={capture}>Capture Photossss</button>
       {navigator.mediaDevices && navigator.mediaDevices.enumerateDevices ? (
         <button onClick={switchCamera}>
           Switch Camera ({cameraSource === 'user' ? 'Rear' : 'Front'})
